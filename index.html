@@ -1,0 +1,32 @@
+			<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Clay's Encrypter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<label>Encryption key</label>
+		<input class="code" type="text" required></input>
+		<label>Message</label>
+		<textarea rows="4" cols="50" class="message" type="text" required></textarea>
+		<button class="cryptbut">Encrypt</button>
+		<button class="decryptbut">Decrypt</button>
+		<div class="encrypted wordwrap"></div>
+		<div class="instructions">
+			<ol>
+				<li>Enter a unique encryption key. Remember this key because it will be the only way to decrypt your message after it's been encrypted</li>
+				<li>Enter you message into the message field and click "Encrypt"</li>
+				<li>To Decrypt a message, enter the encryption key that was used to initially encrypt the message into the encryption key field</li>
+				<li>Copy paste the encrypted message into the message field and then hit decrypt.</li>
+			</ol>
+		</div>
+	</div>
+  <script src="script.js"></script>
+</body>
+</html>
+

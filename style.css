@@ -1,0 +1,30 @@
+.container {
+	width:500px;
+	margin: 0px auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+.message {
+	width:250px;
+}
+
+.encrypted {
+	margin-top:20px;
+	width:250px;
+}
+
+.instructions {
+	border-top: 1px solid black;
+	margin-top:20px;
+}
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
